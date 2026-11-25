@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--<p th:utext = "${param.name}">XYZ</p>    -  This won't work, utext is hard restricted.   -->
+
+<p>Hello <span th:utext = "${name}">xyz</span>!</p>
+
+</body>
+</html>
